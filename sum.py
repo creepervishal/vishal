@@ -1,0 +1,29 @@
+Python 3.11.1 (tags/v3.11.1:a7a450f, Dec  6 2022, 19:43:28) [MSC v.1934 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> a=int(input("enter a value'))
+...             
+SyntaxError: incomplete input
+>>> a=int(input("enter a value"))
+...             
+enter a value20
+>>> b=int(input("enter b value"))
+...             
+enter b value10
+>>> sum=a+b
+...             
+>>> print("enter sum of a+b",sum)
+...             
+enter sum of a+b 30
+>>> 
+>>> 
+>>> s1=input("enter 1st string")
+...             
+enter 1st string20
+>>> s2=input("enter 2nd string")
+...             
+enter 2nd string40
+>>> s=s1+s2
+...             
+>>> print("sum of 2 string",s)
+...             
+sum of 2 string 2040
